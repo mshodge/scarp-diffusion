@@ -47,14 +47,3 @@ Calculates the likely age of a fault scarp based from a diffusion cofficient. Ge
 Profiles can be oriented as desired; typically they are oriented either perpendicular to the local scarp trend
 (if slip direction is unknown), or perpendicular to the slip direction. Please note profiles length (in meters) and
 distance between elevation measurement points, which should be equal to the DEM resolution.
-
-### Smoothing
-
-This algorithm applies a smoothing method to the scarp profiles. There are five filters to choose from:
-
-- `average`: rolling mean algorithm from the pandas Python module
-- `savgol`: (Savitzky–Golay) local least-squares polynomial approximation; it is less aggressive than simple moving
-filters and is therefore better at preserving data features such as peak height and width
-- `median`: moving median algorithm from the SciPy Python module
-- `lowess`: a non-parametric regression method and requires larger sample sizes than the other filters (Cleveland, 1981).
-Can be performed iteratively, but here set to a single pass for computational efficiency.
