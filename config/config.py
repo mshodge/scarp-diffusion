@@ -2,8 +2,8 @@
 fault_dip = 60
 fault_slip = 10
 fault_slip_rate = 2
-fault_scarp_profile_length = 101
-fault_scarp_exponential = False # True for simple
+fault_scarp_profile_length = 30
+fault_scarp_exponential = True # True for simple
 fault_scarp_steps = 1
 fault_scarp_step_width = 5
 final_time = fault_slip / fault_slip_rate

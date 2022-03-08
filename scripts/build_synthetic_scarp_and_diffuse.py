@@ -51,10 +51,10 @@ def build_synthetic_scarp_and_diffuse(config):
                                                     config.fault_scarp_profile_length, config.fault_scarp_steps,
                                                     config.fault_scarp_step_width, config.fault_scarp_exponential)
 
-    diffuse(config.change_in_distance, scarp_profile_elevation, config.diffusion_coefficient,
+    diffused_profile = diffuse(config.change_in_distance, scarp_profile_elevation, config.diffusion_coefficient,
             config.final_time, config.time_steps_between_plots, plot=True)
-
 
 
 if __name__ == "__main__":
     build_synthetic_scarp_and_diffuse(config)
+
