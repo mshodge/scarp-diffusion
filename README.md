@@ -48,3 +48,6 @@ Profiles can be oriented as desired; typically they are oriented either perpendi
 (if slip direction is unknown), or perpendicular to the slip direction. Please note profiles length (in meters) and
 distance between elevation measurement points, which should be equal to the DEM resolution.
 
+## Acknowledgements
+
+The code here is an adapted version of the [MATLAB code written by Ramon Arrowsmith](http://activetectonics.asu.edu/diffuse/).
