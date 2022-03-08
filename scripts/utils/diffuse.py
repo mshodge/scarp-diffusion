@@ -1,6 +1,4 @@
 import matplotlib
-matplotlib.use("TkAgg")
-
 import matplotlib.pyplot as plt
 import numpy as np
 from operator import add
@@ -26,6 +24,8 @@ def diffuse(change_in_distance, scarp_profile_elevation, diffusion_coefficient, 
 	:return slope_after_diffusion: <list> The slope after the diffusion
 	:return time_after_diffusion: <list> The time after the diffusion
 	"""
+	if plot:
+		matplotlib.use("TkAgg")
 
 	print(f"Calculate diffusion over {final_time} kyrs, hold tight.")
 
