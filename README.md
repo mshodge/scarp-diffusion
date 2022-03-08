@@ -47,3 +47,4 @@ Calculates the likely age of a fault scarp based from a diffusion cofficient. Ge
 Profiles can be oriented as desired; typically they are oriented either perpendicular to the local scarp trend
 (if slip direction is unknown), or perpendicular to the slip direction. Please note profiles length (in meters) and
 distance between elevation measurement points, which should be equal to the DEM resolution.
+
