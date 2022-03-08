@@ -1,5 +1,7 @@
 # scarp-diffusion
 
+[![Python application](https://github.com/mshodge/scarp-diffusion/actions/workflows/python-app.yml/badge.svg)](https://github.com/mshodge/scarp-diffusion/actions/workflows/python-app.yml)
+
 Calculates the likely age of a fault scarp based from a diffusion cofficient. Generates the original fault surface and then diffuses the scarp and finds the best fit time.
 
 
