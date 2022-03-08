@@ -1,4 +1,6 @@
 import matplotlib
+matplotlib.use("TkAgg")
+
 import matplotlib.pyplot as plt
 import numpy as np
 from operator import add
@@ -7,7 +9,6 @@ import time
 from scripts.utils.slope import find_slope
 
 
-matplotlib.use("TkAgg")
 
 
 
